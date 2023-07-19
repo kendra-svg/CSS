@@ -88,10 +88,10 @@ b {
 2. Estilos en linea= style="color: red;"
 3. ID
 4. Clases, atributos y pseudo-clases. Acá se toma el ultimo que se puso si es entre clases, atributos y pseudo-clases
-5. Elementos y pseudo-elementos. En ese orden*/
+5. Elementos y pseudo-elementos. En ese orden
 
 
-#color-blue{ /*Id tiene mas jerarquia que las clases, entonces el color mostrado es el blue en vez del red*/
+#color-blue{ Id tiene mas jerarquia que las clases, entonces el color mostrado es el blue en vez del red
     color: blue;
 }
 
@@ -101,7 +101,7 @@ b {
 }
 
 h1 {
-    color: grey !important; /*El !important tiene mas jerarquia que el id y los estilos en linea, entonces el color mostrado es el grey en vez del green del estilo en linea (html)*/
-}
+    color: grey !important; El !important tiene mas jerarquia que el id y los estilos en linea, entonces el color mostrado es el grey en vez del green del estilo en linea (html)
+}*/
 
 
