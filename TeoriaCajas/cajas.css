@@ -1,8 +1,44 @@
-/*Las cosas en bloque toman todo el espacio disponible*/
+/*Las cosas en bloque toman todo el espacio disponible. Por ejemplo, h2, y p cuando viene por defecto*/
 
 /*Las cosas en linea toman el espacio de si mismas, por ejemplo el espacio de un b, sería 'b'*/
 
 * {
     font-family: 'IM Fell DW Pica', serif;
     font-weight: 100;
+}
+
+/*h2 {
+    display: inline; /*A los elementos en linea no se les puede dar width ni height
+}*/
+
+/*p {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}*/
+
+h2 {
+    background-color: red;
+    display: inline-block; /*Para que se comporte como un elemento en linea pero pueda adquirir las propiedades de un elemento en bloque*/
+    /*padding-bottom: 20px;/*Distancia que hay entre los bordes interiores de la caja y el texto
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /*Puedo evitar especificar Padding hacia todos lados, si simplemente pongo padding: 20px*/
+    /*padding: 20px; Esto funciona debido a que es 1 shorthand property. 20px para todos lados*/
+    /*padding: 20px 30px; Significa 20px hacia arriba y abajo y 30px hacia la derecha e izquiera*/
+    /*padding: 10px 20px 30px 40px; Top, right, bottom, left*/
+    /*padding: 10px 20px 30px; Sino se pone nada en left, se asume que tambien es 20px igual que right.*/
+    padding: 100px;
+    box-sizing: border-box; /*Para que el padding no se sume al width y height*/
+    /*box-sizing: content-box; El width y height del ancho total de la caja se ven afectados(se deforma), pero su contenido queda en dentro del bloque*/
+    text-align: center;
+    /*Margin es la distancia que hay entre el borde exterior de una caja con otra*/
+    /*margin: 10px;*/
+    margin: 20px 10px;
+    border-radius: 2em; /*Para redondear bordes*/
+    border: 5px solid #a22; /*Color del borde*/
+    box-shadow: 30px 20px 10px 10px #000; /*Desplazamiento horizontal, desplazamiento vertical, desenfoque, tamaño de la sombra*/
+    text-shadow: 2px 2px 7px #fff;
+    transform: rotate(-45deg);
 }
