@@ -1,0 +1,8 @@
+/*Las cosas en bloque toman todo el espacio disponible*/
+
+/*Las cosas en linea toman el espacio de si mismas, por ejemplo el espacio de un b, sería 'b'*/
+
+* {
+    font-family: 'IM Fell DW Pica', serif;
+    font-weight: 100;
+}
