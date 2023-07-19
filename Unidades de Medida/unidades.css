@@ -1,0 +1,46 @@
+/*Unidades de medida*/
+
+/*Unidades de medida relativa. Funciona para cuando se cambia el tamaño de la pagina. Por defecto se multiplica el tamaño 5(em) x la fuente de la caja contenedora, en este caso 20(px), por lo que el tamaÑo del titulo es 100px.
+.contact-form {
+    font-size: 20px;
+}
+
+.contact-form__h2 {
+    font-size: 5em;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+Viewport height y viewport width tambien son medidas relativas.
+.contact-form {
+    font-size: 25px;
+    background-color: #000;
+    width: 50vw;
+    height: 100vh;
+
+}
+
+Los porcentajes tambien son medidas relativas, pero se ajustan al tamaño del contenedor padre.*/
+* {
+    font-family: 'IM Fell DW Pica', serif;
+    font-weight: 100;
+}
+
+
+.contact-form {
+    font-size: 25px;
+}
+
+.contact-form__h2 {
+    font-size: 2em;
+    font-family: 'IM Fell DW Pica', serif; /*Esto tiene 2 valores porque significa que si no encuentra im fell dw pica, que entonces use serif */
+    color: green;
+    /*line-height: 2; /*Nace del centro de la letra, y 2 linea height significa 1/2 para arriba y 1/2 para abajo*/
+    font-weight: 100;
+    /*Estas son inutiles pretty much
+    font-stretch: normal; 
+    font-variant: small-caps*/
+}
