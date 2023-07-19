@@ -1,0 +1,43 @@
+/*selector {
+    propiedad: valor;
+}*/
+
+/*Display block agarra toda la linea*/
+
+/*Display inline se ajusta a las medidas de su weight and height*/
+
+/*CSS Selectores
+
+Universal - *
+de tipo - o sea por el nombre de los elementos, por ejemplo h1, button, etc
+clases - Empieza por . y se le asigna un nombre, afecta a solo los que tienen la clase aplicada en html
+ID - Se utiliza el #, y se debe utilizar para identificar un elemento unico
+por atributo -
+descendiente -
+pseudo-clases -
+
+Id tiene mas rango de especificidad que el class
+
+
+* { /*(*) Significa Universal, absolutamente todos los elementos
+    color: red;
+}*/
+
+/*Selector de tipo
+p { 
+    color: black;
+}*/
+
+/*Selector de clase
+.titulo-h2 { 
+    color: blue;
+}*/
+
+/*Selector de ID
+#id-elemento { 
+    color: green;
+}*/
+
+[atributo="sii"] { /*Selector por atributo*/
+    color: yellow;
+}
