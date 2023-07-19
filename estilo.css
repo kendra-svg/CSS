@@ -66,3 +66,26 @@ b:hover {
 .h2-class b:hover { Tambien funciona en clases
     color: red;
 }*/
+
+/*ESPECIFICIDAD
+Es una forma de cambiar las propiedades sin afectar al resto, es un tema de prioridad*/
+
+/*Ejemplo de lo que pasaria sin especificidad (se agarra solo la ultima version del b )
+b {
+    color: red;
+}
+
+b {
+    color: green;
+}
+
+b {
+    color: blue;
+}*/
+
+/*ORDEN DE ESPECIFICIDAD
+1. !important
+2. Estilos en linea
+3. ID
+4. Clases, atributos y pseudo-clases. En ese orden
+5. Elementos y pseudo-elementos. En ese orden*/
