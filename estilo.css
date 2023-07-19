@@ -12,9 +12,9 @@ Universal - *
 de tipo - o sea por el nombre de los elementos, por ejemplo h1, button, etc
 clases - Empieza por . y se le asigna un nombre, afecta a solo los que tienen la clase aplicada en html
 ID - Se utiliza el #, y se debe utilizar para identificar un elemento unico
-por atributo -
-descendiente -
-pseudo-clases -
+por atributo - Se debe poner en corchetes, y se le asigna un atributo, por ejemplo [atributo="sii"]
+descendiente - Se utiliza para seleccionar un elemento que esta dentro de otro, por ejemplo h2 p
+pseudo-clases - Cuando en un evento se genera un seleccion, por ejemplo cuando se pasa el mouse por encima de un elemento, se utiliza asi: b:hover, y en este caso el texto pasa a ser rojo
 
 Id tiene mas rango de especificidad que el class
 
@@ -38,6 +38,31 @@ p {
     color: green;
 }*/
 
-[atributo="sii"] { /*Selector por atributo*/
+
+/*Selector por atributo
+[atributo="sii"] { 
     color: yellow;
+}*/
+
+/*Selector descendiente
+h2 p {
+    color: red;
 }
+
+.h2-class b {
+    color: red;
+}
+
+.h2-class b span {
+    color: blue;
+}*/
+
+/*Selector pseudo-clases
+b:hover {
+    color: red;
+
+}
+
+.h2-class b:hover { Tambien funciona en clases
+    color: red;
+}*/
