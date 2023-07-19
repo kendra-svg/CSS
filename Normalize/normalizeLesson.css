@@ -1,0 +1,17 @@
+* {
+    font-family: 'IM Fell DW Pica', serif;
+    font-weight: 100;
+}
+
+
+.contact-form {
+    font-size: 25px;
+}
+
+.contact-form__h2 {
+    font-size: 2em;
+    font-family: 'IM Fell DW Pica', serif; /*Esto tiene 2 valores porque significa que si no encuentra im fell dw pica, que entonces use serif */
+    color: green;
+    font-weight: 100;
+
+}
