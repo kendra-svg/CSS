@@ -1,0 +1,37 @@
+* {
+    font-family: 'IM Fell DW Pica', serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+/*.caja1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: auto; /*Lo centra a los lados, pero no hay margin top ni bottom*/
+    /*border: 10px solid blue; Deforma la caja y aumenta los px totales de la caja
+    outline: 10px solid green;
+}*/
+
+.caja2 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    margin: auto; /*Lo centra a los lados, pero no hay margin top ni bottom*/
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    display: inline-block;
+}
+
+.caja1 {
+    outline: 5px solid red;
+}
+
+.caja4 {
+    border: 5px solid red;
+}
