@@ -1,0 +1,20 @@
+* {
+    font-family: 'IM Fell DW Pica', serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+.caja1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: auto;
+}
+
+.caja2 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    margin: auto;
+}
