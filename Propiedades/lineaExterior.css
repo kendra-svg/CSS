@@ -11,21 +11,23 @@
     background: red;
     margin: auto; /*Lo centra a los lados, pero no hay margin top ni bottom*/
     /*border: 10px solid blue; Deforma la caja y aumenta los px totales de la caja
-    outline: 10px solid green;
+    outline: 10px solid green; *****No******** deforma la caja
+    ***box-sizing: content-box; Es como usar outline   ****
 }*/
 
 .caja2 {
     width: 200px;
     height: 200px;
     background: yellow;
-    margin: auto; /*Lo centra a los lados, pero no hay margin top ni bottom*/
+    margin: auto;
+    /*Lo centra a los lados, pero no hay margin top ni bottom*/
 }
 
 div {
     width: 200px;
     height: 200px;
     background: yellow;
-    display: inline-block;
+    display: inline-block; /*Hace que se comporte como bloque en linea*/
 }
 
 .caja1 {
