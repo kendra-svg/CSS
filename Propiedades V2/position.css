@@ -69,3 +69,19 @@ div {
 /*Relative: Se considera posicionado y se puede mover con top, bottom, left, right. Hace que el espacio que conserva  quede reservado*/
 
 /*Z-index: 1; Hace que un elemento se superponga sobre otro*/ /*Solamente funciona cuando las cajas estan posicionadas, y la que tiene prioridad es el elemento html que se hizo de ultimo*/
+
+/*Absolute: Se considera posicionado y se puede mover con top, bottom, left, right. No deja espacio reservado, se superpone sobre los demas elementos. No es responsive*/
+
+.caja-1 {
+    background-color: orange;
+    top: 20px;
+}
+
+.caja-2 {
+    background-color: green;
+    position: relative;
+}
+.caja-3 {
+    background-color: lightblue;
+    position: relative;
+}
