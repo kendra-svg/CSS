@@ -12,18 +12,60 @@ div {
 
 }
 
-.caja-1 {
-    background-color: orange;
+.contenedor {
+    width: 300px;
+    height: 300px;
+    background: blue;
+    margin: 40px;
+    position: relative;
+    /*2/2 y no poder z-index en el padre*/
+
+
 }
 
+.hijo {
+    background-color: orange;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    /* 1/2 La unica forma en la que se puede poner al hijo por debajo del padre es con lo siguiente: */
+    z-index: -1;
+
+}
+
+/*.caja-1 {
+    background-color: orange;
+    top: 20px;
+}/*
+/*
 .caja-2 {
     background-color: green;
-}
+    position: relative;
+    /*top: 50px; /*Tiene prioridad sobre bottom, el browser le va a hacer caso solo al top*/
+    /*bottom: 20px; 
+    left: 20px; /*Tiene prioridad sobre right, el browser le va a hacer caso solo al right*/
+    /*Sin embargo, si estoy usando position relative y no puse ni top ni left, entonces si le va a hacer caso a bottom y right*/
+    /*top: 60px;
+    left: 20px;
+    z-index: 1; /*El por defecto es 0, entonces si se pone 1 ya se sobrepone por la caja 3 aunque esa se haya hecho de ultima. Se puede ir sumando de a 100 por ejemplo para no interferir con otros elementos. El que tenga el numero mayor va a ir superpuesto al otro*/
+
+/*}
 
 .caja-3 {
     background-color: lightblue;
+    position: relative;
 }
 
 .caja-4 {
     background-color: yellow;
 }
+
+/*
+----------POSITION----------------*/
+/*Position : static No se considera posicionado*/
+
+/*Relative: Se considera posicionado y se puede mover con top, bottom, left, right. Hace que el espacio que conserva  quede reservado*/
+
+/*Z-index: 1; Hace que un elemento se superponga sobre otro*/ /*Solamente funciona cuando las cajas estan posicionadas, y la que tiene prioridad es el elemento html que se hizo de ultimo*/
