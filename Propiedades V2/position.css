@@ -144,7 +144,7 @@ div div {
 
 /*Position absolute fin*/
 
-/*Inicio position fixed*/
+/*Inicio position fixed
 
 body {
     padding-top: 100px;
@@ -157,3 +157,18 @@ body {
 }
 
 /*Fin position fixed*/
+
+/*Inicio position sticky
+
+
+.caja-fixed {
+    background: red;
+    position: sticky;
+    opacity: 0.3;
+    top: -20px;
+    
+
+
+}
+
+/*Fin position sticky*/
