@@ -1,0 +1,58 @@
+* {
+    font-family: 'IM Fell DW Pica', serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+/* Inicio display inline-block, inline & block
+b {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 10px solid red;
+    background: yellow;
+    /*display: inline;  No se puede modificar ni ancho ni alto */
+    /*display: inline-block;  Cosas dentro del div pueden conservar su altura y alto. Tambien se alinean de manera horizontal */
+    /*display: block;Se alinean de manera vertical*/
+    /*width: 400px;
+    height: 400px;
+    display: inline-block;
+
+/*Fin display inline-block, inline & block */
+
+div {
+    margin: auto;
+    margin-top: 50px;
+    width: 320PX;
+    height: 350px;
+    border: 4px solid red;
+    background: grey;
+    /*overflow: auto; Detecta que si el contenido sobrepasa la caja, que entonces pueda hacer scroll dentro de la caja
+    /*overflow: scroll. hace que aparezca la rayita de scroll incluso si no es necesario
+    overflow-x: scroll; hace que aparezca la rayita en el eje x
+    overflow-y: hidden; hace que desaparezca la rayita en el eje y*/
+    overflow: hidden;
+
+
+}
+
+
+img {
+    width: 100px;
+    position: relative;
+    top: 260px;
+    left: 240px;
+    outline: 2px solid yellow;
+    /*transition: all 1.2s;*/
+
+}
+
+
+
+/*div:hover > img {
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    outline: 2px solid yellow;
+}*/
