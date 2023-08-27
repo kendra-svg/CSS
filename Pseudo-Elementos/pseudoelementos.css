@@ -29,25 +29,42 @@
 form {
     margin: 100px auto;
     display: block;
-    background-color: #555;
+    background-color: #666;
     padding: 100px;
     width: 50%;
 }
 
-input {
+/*input {
     width: 100%;
     padding: 6px;
     
 }
 
-input::placeholder {
+/*input::placeholder {
     color: red;
     font-size: 1.4em;
     background-color: yellow;
-}
+}*/
 
-input::selection {
+/*input::selection {
     color: white;
     font-size: 1.4em;
     background-color: black;
 } /*Como se comporta como un elemento en linea, no permite dar padding*/
+
+b {
+    padding: 6px;
+    width: 100%;
+} /*Funciona tanto en elementos en linea como en bloque, tanto en b como en p*/
+
+b::before {
+    content: "Me suscribi";
+    color: #fff;
+
+} /*Funciona tanto en elementos en linea como en bloque, tanto en b como en p*/
+
+b::after {
+    content: "todo tendencias";
+    color: red;
+    background: #614;
+} /*Funciona tanto en elementos en linea como en bloque, tanto en b como en p*/
