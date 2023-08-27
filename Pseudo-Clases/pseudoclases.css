@@ -4,7 +4,7 @@
     font-size: 20px;
 }
 
-.caja1 {
+/*.caja1 {
     height: 200px;
     width: 200px;
     background-color: slateblue;
@@ -15,4 +15,18 @@
     background-color: darkslateblue;
     height: 300px;
     width: 300px;
+}*/
+
+
+a:link{
+    color: red;
+    background-color: yellow;
+}
+
+a:visited{
+    color: violet;
+}
+
+a {
+    color: green !important
 }
