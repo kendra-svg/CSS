@@ -1,0 +1,22 @@
+/*Un pseudoelemento es un elemento que no es un elemento porque no forma parte del DOM, pero permite ver cambios visuales*/
+
+/*::first-line { funciona solo en elementos de bloque, osea en inline no
+
+}
+
+.texto {
+    width: 500px;
+    border: 2px dashed grey;
+    padding: 20px;
+}
+
+/*.texto::first-letter { funciona solo en elementos de bloque, osea en inline no
+    color:blue;
+    font-size: 2em;
+}
+
+.texto::first-line {
+    color: lightblue;
+    font-size: 1.5em;
+}/*
+
