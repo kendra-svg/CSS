@@ -18,7 +18,7 @@
 }*/
 
 
-a:link{
+/*a:link{ link & visited
     color: red;
     background-color: yellow;
 }
@@ -29,4 +29,30 @@ a:visited{
 
 a {
     color: green !important
+}*/
+
+/*.caja { 
+    width: 250px;
+    height: 250px;
+    background-color: RED;
+    margin: 25px;
+    transition: all 1s;
 }
+
+.caja:active {
+    background-color: blue;
+    width: 400px;
+} /*Active*/
+
+.caja {
+
+    margin: 25px;
+    background: lightgrey;
+    transition: background-color 1s, padding 1s;
+}
+
+.caja:focus {
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+} 
