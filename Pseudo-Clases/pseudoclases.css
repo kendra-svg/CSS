@@ -44,15 +44,11 @@ a {
     width: 400px;
 } /*Active*/
 
-.caja {
-
+/*.caja {
     margin: 25px;
-    background: lightgrey;
-    transition: background-color 1s, padding 1s;
 }
 
-.caja:focus {
-    background-color: white;
+.caja b:lang(en) {
+    background-color: red;
     padding: 20px;
-    width: 600px;
-} 
+} */
