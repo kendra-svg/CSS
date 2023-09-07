@@ -1,0 +1,22 @@
+* {
+    font-family: 'IM Fell DW Pica', serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.caja {
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.caja img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    /*object-fit: contain; No se ajusta al tamano del contenedor*/
+    /*object-fit: none; Actua como si fuera el tamano original de la img y no se ajusta nada*/
+    object-fit: scale-down; /*Se ajusta al tamano del contenedor pero no se sale de el. Toma el que tenga la resolucion mas pequena entre none y contain 
+    /*object-fit: cover; La imagen se ajusta al tamano del contenedor*/
+}

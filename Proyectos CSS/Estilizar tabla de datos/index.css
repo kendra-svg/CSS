@@ -4,3 +4,38 @@ body {
     background-color: #f4f4f4;
 }
 
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse; /*Para poner el boprder lo mas fino posible*/
+    width: 800px;
+    margin: 100px auto;
+}
+
+td, th {
+    border: solid 1px #ccc;
+    padding: 5px;
+
+
+}
+
+tr:nth-child(even) { /*Esto es para intercalar el color de las filas*/
+    background-color: #ddd;
+}
+
+
+td:nth-child(n + 3), /*Esto se usa para centrar numeros a partir de la posicion 3 (td:nth-child(3)) o n + 3 para que sean todas las columnas a partir de la 3*/
+th:nth-child(n + 3) {
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: rgb(160, 222, 225) !important;
+}
+
+thead {
+    background-color: black;
+    color: white;
+    position: sticky; /*Esto es para que el encabezado se quede fijo*/
+    top: 0; /*Esto es para que el encabezado se quede fijo*/
+}
